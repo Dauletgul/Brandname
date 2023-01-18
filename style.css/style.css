@@ -1,0 +1,108 @@
+.header .navbar i {
+  display: none;
+}
+
+@media screen and (max-width: 824px) {
+  .header img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .header .navbar ul {
+    display: none;
+  }
+  .header .navbar span {
+    display: none;
+  }
+  .header .navbar i {
+    display: block;
+  }
+  .main__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content__sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  .action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .action img img {
+    padding-left: 0;
+  }
+  .courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .courses .block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .teacher div {
+    display: flex;
+    flex-direction: column;
+  }
+  .Popular {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+  .Popular .life {
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px solid 0 0 10px;
+  }
+  .email {
+    text-align: center;
+  }
+  .email .label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foot span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .foot span .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header .navbar ul {
+    display: none;
+  }
+  .header .navbar span {
+    display: none;
+  }
+  .header .navbar i {
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,127 @@
+.header{
+    .navbar{
+        i{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 824px) {
+    .header{
+        img{
+            object-fit: contain;
+        }
+        .navbar{
+            ul{
+                display: none;
+            }
+            span{
+                display: none;
+            }
+            i{
+                display: block;
+            }
+        }
+    }
+    .main{
+        &__content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .content{
+        &__sidebar{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .action{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       img{
+        img{
+            padding-left: 0;
+        }
+       }
+    }
+    .courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .block{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .teacher{
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .Popular{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        .life{
+            display: flex;
+            flex-direction: column;
+            text-shadow: 2px solid 0 0 10px;
+        }
+    }
+    .email{
+        text-align: center;
+        .label{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .foot{
+       span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .btn{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+       }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+@media screen and (max-width: 375px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .navbar{
+            ul{
+                display: none;
+            }
+            span{
+                display: none;
+            }
+            i{
+                display: block;
+            }
+        }
+    }
+}
