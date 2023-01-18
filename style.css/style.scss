@@ -35,6 +35,9 @@
         &__sidebar{
             display: flex;
             flex-direction: column;
+            &__menu{
+                display: none;
+            }
         }
     }
     .action{
@@ -107,21 +110,13 @@
         align-items: center;
     }
   }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .header{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .navbar{
-            ul{
-                display: none;
-            }
-            span{
-                display: none;
-            }
-            i{
-                display: block;
-            }
+        img{
+            object-fit: contain;
         }
+        .post{
+           display: none;
+        }
+       }
     }
-}
